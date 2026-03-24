@@ -31,9 +31,9 @@
 
     <link rel="manifest" href="/site.webmanifest">
     
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/tailwind.min.css">
+    <link rel="stylesheet" href="/assets/fonts.css">
+    <link rel="stylesheet" href="/assets/font-awesome_all.min.css">
     
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0D9488">
@@ -183,6 +183,44 @@
             100% { transform: scale(1); }
         }
     </style>
+    <style>
+    /* Custom Colors */
+    :root {
+        --off-white: #FDFCFB;
+        --slate-blue: #475569;
+        --digital-teal: #0D9488;
+        --soft-indigo: #6366F1;
+    }
+
+    /* Backgrounds */
+    .bg-off-white { background-color: var(--off-white) !important; }
+    .bg-digital-teal { background-color: var(--digital-teal) !important; }
+    .bg-soft-indigo { background-color: var(--soft-indigo) !important; }
+
+    /* Text colors */
+    .text-digital-teal { color: var(--digital-teal) !important; }
+    .text-soft-indigo { color: var(--soft-indigo) !important; }
+    .text-slate-blue { color: var(--slate-blue) !important; }
+
+    /* Borders & Decorations */
+    .border-digital-teal { border-color: var(--digital-teal) !important; }
+    .decoration-digital-teal\/20 { text-decoration-color: rgba(13, 148, 136, 0.2) !important; }
+    
+    /* Interactive States (Hovers) */
+    .hover\:bg-digital-teal:hover { background-color: var(--digital-teal) !important; }
+    .hover\:border-digital-teal:hover { border-color: var(--digital-teal) !important; }
+    .hover\:text-digital-teal:hover { color: var(--digital-teal) !important; }
+
+    /* Opacity variations used in your code */
+    .bg-digital-teal\/10 { background-color: rgba(13, 148, 136, 0.1) !important; }
+    .bg-digital-teal\/20 { background-color: rgba(13, 148, 136, 0.2) !important; }
+    .bg-soft-indigo\/10 { background-color: rgba(99, 102, 241, 0.1) !important; }
+    .shadow-teal-500\/20 { box-shadow: 0 10px 15px -3px rgba(13, 148, 136, 0.2); }
+
+    /* Custom Border Radius from your config */
+    .rounded-4xl { border-radius: 2rem !important; }
+    .rounded-5xl { border-radius: 3rem !important; }
+</style>
 </head>
 <body class="font-sans text-slate-800 antialiased">
 
