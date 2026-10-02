@@ -23,11 +23,11 @@
 - **Тривалість:** 30 хвилин.
 - **Географія:** Весь світ (онлайн).
 - **Рецепти:** Видача електронних рецептів на ліки після встановлення діагнозу.
-- **Запис:** Виключно через Telegram-бот [@PsyOnlineHelpBot](https://t.me/PsyOnlineHelpBot).
+- **Запис:**  (https://booking.helpsy.online/?utm_source=kotenko_online).
 
 ## Важливі посилання
 - [Офіційний сайт](https://kotenko.online)
-- [Записатися анонімно (Telegram)](https://t.me/PsyOnlineHelpBot)
+- [Записатися анонімно] (https://booking.helpsy.online/?utm_source=kotenko_online)
 - [Профіль на Psikhiatr Online](https://psikhiatr-onlayn.kiev.ua/doc_kotenko.html)
 - [Політика конфіденційності](https://psikhiatr-onlayn.kiev.ua/pp_ua.html)
 
